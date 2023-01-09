@@ -1,0 +1,457 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-image: url("https://media.giphy.com/media/24nHoeuyAA27l22hJ7/giphy.gif");
+    background-size: contain;
+   
+}
+
+img {
+    width: 100px;
+}
+
+
+
+.hero {
+
+    background-image: url("https://media.giphy.com/media/5ULDrVOIrOAZty78fo/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 443px;
+    width: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#hero-title {
+
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+    height: 34px;
+    width: 320px;
+   
+    text-shadow: 0 9px 15px rgb(242, 23, 23);
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 5px 2px 9px 2px;
+    
+    
+}
+
+
+#hero-title:hover {
+    color: black;
+    background-color:rgb(237, 12, 12) ;
+}
+
+#hero-subtitle {
+
+    background-color: #219ebc;
+    color: rgb(237, 12, 12);
+    text-shadow: 0 6px 15px rgb(3, 1, 1);
+
+
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+
+    height: 40px;
+    width: 870px;
+    border-radius: 10px;
+    padding: 5px 2px 2px 2px ;
+    
+}
+
+#hero-subtitle:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+/* the second section //////// */
+
+
+
+
+
+.activity {
+    background-color: #F1FAEE;
+    margin-top: -55px;
+
+}
+
+#activity-title {
+    height: 20px;
+    width: 485px;
+background-color:;
+    color: black;
+    text-shadow: 0 0 10px rgb(19, 145, 242);
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 39px;
+
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+   
+    
+    
+    
+}
+
+.the-box {
+    background-color: #F1FAEE;
+
+    height: 378px;
+    width: 720px;
+    left: 0px;
+    top: 343px;
+    border-radius: 0px;
+    
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    width: auto;
+}
+
+
+
+
+#pic-1 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    left: 83px;
+    top: 114px;
+    
+}
+
+
+#pic-2 {
+
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    left: 83px;
+    top: 114px;
+}
+
+#pic-3 {
+   
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    left: 83px;
+    top: 114px;
+
+}
+
+.p {
+    font-family: Arial;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+h3 {
+    
+   color: rgb(19, 145, 242);
+   text-shadow: 5px 5px 15px rgb(17, 14, 9);
+
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+
+.div-1 {
+
+    height: 226px;
+    width: 198px;
+    left: 34px;
+    top: 114px;
+    border-radius: 0px;
+    
+}
+
+
+.div-2 {
+    
+    height: 226px;
+    width: 198px;
+    left: 34px;
+    top: 114px;
+    border-radius: 0px;
+}
+
+
+.div-3 {
+
+    height: 226px;
+    width: 198px;
+    left: 34px;
+    top: 114px;
+    border-radius: 0px;
+    
+}
+
+
+
+/* 
+.guide {
+
+    background-color: red;
+}
+
+
+.card {
+    background-color: green;
+
+    margin: 0 auto 0 auto;
+    height: 294px;
+    width: 500px;
+    left: 160px;
+    top: 50px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;
+    
+} */
+
+#per {
+    
+    height: 248px;
+    width: 180px;
+    border-radius: 10px;
+  
+
+    margin: 23px 7px 23px 13px;   
+    
+}
+
+
+.card {
+
+
+    height: 294px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto 50px auto;
+
+    background-color: #219ebc;
+    box-shadow: 0px 6px 0px #1D3557;
+
+    display: flex;
+    justify-content: space-around;
+
+    /* background-color: red; */
+
+}
+
+
+.inside-text {
+
+  
+
+    height: 200px;
+    margin: auto;
+    width: auto;
+   
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+        /* background-color: green; */
+}
+
+
+#one {
+
+     color: #1D3557;
+     text-shadow: 0 0 9px orange;
+
+
+
+
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    height: 32px;
+    width: 207px;
+    left: 349px;
+    top: 99px;
+    border-radius: nullpx;
+    
+
+}
+
+#two {     
+     
+    height: 71px;
+    width: 189px;
+    left: 360px;
+    top: 145px;
+    
+
+    
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#three {
+
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    height: 18px;
+    width: 189px;
+    left: 358px;
+    top: 242px;
+
+    text-shadow: 0 0 9px orange;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.hero {
+    
+    background-image: url("images/torshov.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ 
+ 
+    /*  position: absolute;  */
+    /* height: 343px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px; */
+
+}
+/* */
+/* .top-h {  /* here i can move them around  */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-position: center;
+ 
+} */ */
+
+/* 
+#top-1  {
+   color: white;
+   background-color: #1D3557;
+   font-family: Arial;
+   font-size: 32px;
+   font-weight: 700;
+   text-align: center;
+   
+   height: 42px;
+   width: 225px;
+   border-radius: 10px;
+
+
+}
+
+#top-2 {
+    color: white;
+    background-color: #457B9D;
+    
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    height: 52px;
+width: 412px;
+left: 154px;
+top: 172px;
+border-radius: 10px;
+
+
+} */
