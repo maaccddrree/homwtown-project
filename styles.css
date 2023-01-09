@@ -1,12 +1,5 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
 
-*/
+
 
 body {
     margin: 0px;
@@ -94,11 +87,6 @@ img {
     background-color: yellow;
 }
 
-/* the second section //////// */
-
-
-
-
 
 .activity {
     background-color: #F1FAEE;
@@ -109,7 +97,6 @@ img {
 #activity-title {
     height: 20px;
     width: 485px;
-background-color:;
     color: black;
     text-shadow: 0 0 10px rgb(19, 145, 242);
 
@@ -121,10 +108,7 @@ background-color:;
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
-   
-    
-    
-    
+  
 }
 
 .the-box {
@@ -134,20 +118,12 @@ background-color:;
     width: 720px;
     left: 0px;
     top: 343px;
-    border-radius: 0px;
-    
-
-
+    border-radius: 0px; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-
     width: auto;
 }
-
-
-
 
 #pic-1 {
     border-radius: 50%;
@@ -214,7 +190,6 @@ h3 {
     
 }
 
-
 .div-2 {
     
     height: 226px;
@@ -223,7 +198,6 @@ h3 {
     top: 114px;
     border-radius: 0px;
 }
-
 
 .div-3 {
 
@@ -235,33 +209,7 @@ h3 {
     
 }
 
-
-
-/* 
-.guide {
-
-    background-color: red;
-}
-
-
-.card {
-    background-color: green;
-
-    margin: 0 auto 0 auto;
-    height: 294px;
-    width: 500px;
-    left: 160px;
-    top: 50px;
-    border-radius: 10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: ;
-    
-} */
-
-#per {
+#guide {
     
     height: 248px;
     width: 180px;
@@ -271,7 +219,6 @@ h3 {
     margin: 23px 7px 23px 13px;   
     
 }
-
 
 .card {
 
@@ -295,21 +242,15 @@ h3 {
 
 .inside-text {
 
-  
-
     height: 200px;
     margin: auto;
     width: auto;
-   
-
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 
-        /* background-color: green; */
 }
 
 
@@ -317,9 +258,6 @@ h3 {
 
      color: #1D3557;
      text-shadow: 0 0 9px orange;
-
-
-
 
     font-family: Arial;
     font-size: 24px;
@@ -343,8 +281,6 @@ h3 {
     width: 189px;
     left: 360px;
     top: 145px;
-    
-
     
     font-family: Arial;
     font-size: 16px;
@@ -384,74 +320,3 @@ h3 {
 
 
 
-
-
-/* 
-.hero {
-    
-    background-image: url("images/torshov.jpg");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-
- 
- 
-    /*  position: absolute;  */
-    /* height: 343px;
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px; */
-
-}
-/* */
-/* .top-h {  /* here i can move them around  */
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    background-position: center;
- 
-} */ */
-
-/* 
-#top-1  {
-   color: white;
-   background-color: #1D3557;
-   font-family: Arial;
-   font-size: 32px;
-   font-weight: 700;
-   text-align: center;
-   
-   height: 42px;
-   width: 225px;
-   border-radius: 10px;
-
-
-}
-
-#top-2 {
-    color: white;
-    background-color: #457B9D;
-    
-    font-family: Arial;
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: center;
-
-    height: 52px;
-width: 412px;
-left: 154px;
-top: 172px;
-border-radius: 10px;
-
-
-} */
