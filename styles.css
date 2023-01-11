@@ -98,14 +98,18 @@ img {
 }
 
 #activity-title {
-    height: 20px;
+
+    background-color: rgb(249, 124, 0);
+
+    border-radius: 15px;
+
+    height: 0px;
     width: 485px;
     color: black;
     text-shadow: 0 0 10px rgb(19, 145, 242);
 
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 39px;
+    margin: 0px auto 0px auto;
+    padding: 30px 10px 55px 10px;
 
     font-family: Arial;
     font-size: 24px;
@@ -114,10 +118,20 @@ img {
   
 }
 
-.the-box {
-    background-color: #F1FAEE;
 
-    height: 378px;
+.activity-div {
+
+    
+    background-color: rgb(11, 15, 11);
+
+}
+
+.the-box {
+    background-color: #f1d07b;
+
+    margin-top: 0px;
+
+    height: 478px;
     width: 720px;
     left: 0px;
     top: 343px;
@@ -134,8 +148,38 @@ img {
     width: 100px;
     left: 83px;
     top: 114px;
+
+
+
+    /* --m:
+    radial-gradient(circle farthest-side at right,#000 99%,#0000) 
+      0 100%/46% 92% no-repeat,
+    radial-gradient(circle farthest-side at left ,#000 99%,#0000) 
+      100% 0/46% 92% no-repeat;
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale(.5);
+  transition: .3s linear;
+  cursor: pointer; */
     
 }
+
+
+.div-1:hover {
+
+     
+    transform: scale(1.5);
+
+
+
+
+    /* -webkit-mask-position: 7.5% 50%,92.5% 50%;
+    mask-position: 7.5% 50%,92.5% 50%;
+filter: grayscale(0); */
+
+} 
+
+
 
 
 #pic-2 {
@@ -145,7 +189,18 @@ img {
     width: 100px;
     left: 83px;
     top: 114px;
+
 }
+
+
+.div-2:hover {
+
+     
+    transform: scale(1.4);
+
+}
+
+
 
 #pic-3 {
    
@@ -156,6 +211,15 @@ img {
     top: 114px;
 
 }
+
+
+.div-3:hover {
+
+     
+    transform: scale(1.5);
+
+}
+
 
 .p {
     font-family: Arial;
@@ -193,6 +257,8 @@ h3 {
     
 }
 
+
+
 .div-2 {
     
     height: 226px;
@@ -222,7 +288,9 @@ h3 {
     background-size: cover;
     background-position: 20cm;
 
-
+  
+    border: 2px solid rgb(238, 83, 83);
+    
 
     margin: 23px 7px 23px 13px;   
     
@@ -260,6 +328,37 @@ h3 {
     /* background-color: red; */
 
 }
+
+.card:hover {
+    background-color: rgb(30, 31, 59);
+    color: rgb(103, 37, 175);
+    font-weight: 800px;
+    font-weight: bold;
+
+    border: 8px solid;
+    border-image: repeating-linear-gradient(
+        135deg,
+        #f8ca00 0 10px,
+        #e97f02 0 20px,
+        #bd1550 0 30px
+      )
+      8;
+    -webkit-: conic-gradient (
+          from 180deg at top 8px right 8px,
+          #0000 90deg,
+          #000 0
+        )
+        var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+      conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0
+        var(--_i, 200%) / var(--_i, 8px) 200% border-box no-repeat,
+      linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: 0.3s, -webkit-mask-position 0.3s 0.3s;
+    --_i: 100%;
+    color: #cc333f;
+    transition: 0.3s, -webkit-mask-size 0.3s 0.3s;
+
+}
+
 
 
 .inside-text {
