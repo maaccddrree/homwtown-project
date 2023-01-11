@@ -4,8 +4,11 @@
 body {
     margin: 0px;
     text-align: center;
-    background-image: url("https://media.giphy.com/media/24nHoeuyAA27l22hJ7/giphy.gif");
-    background-size: contain;
+
+
+    /* background-image: url("https://media.giphy.com/media/24nHoeuyAA27l22hJ7/giphy.gif");
+    background-size: 120vh;
+    background-position: */
    
 }
 
@@ -17,7 +20,7 @@ img {
 
 .hero {
 
-    background-image: url("https://media.giphy.com/media/5ULDrVOIrOAZty78fo/giphy.gif");
+    background-image: url("https://media.giphy.com/media/BCs20EzQnYRXi/giphy.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -214,11 +217,28 @@ h3 {
     height: 248px;
     width: 180px;
     border-radius: 10px;
-  
+
+    background-image: url("https://media.giphy.com/media/rp64ilsWhDQLkrFv3Y/giphy.gif");
+    background-size: cover;
+    background-position: 20cm;
+
+
 
     margin: 23px 7px 23px 13px;   
     
 }
+
+.outter-card {
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    background-image: url("https://media.giphy.com/media/mzoDPO2LCs7fwkri4T/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+
 
 .card {
 
@@ -227,10 +247,12 @@ h3 {
     width: 400px;
     padding: 20px;
     border-radius: 10px;
-    margin: 50px auto 50px auto;
+    margin: 100px auto 50px auto;
 
     background-color: #219ebc;
     box-shadow: 0px 6px 0px #1D3557;
+
+   
 
     display: flex;
     justify-content: space-around;
