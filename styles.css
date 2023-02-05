@@ -99,9 +99,9 @@ img {
 
 #activity-title {
 
-    background-color: rgb(249, 124, 0);
+    /* background-color: rgb(240, 235, 229); */
 
-    border-radius: 15px;
+    border-radius: 6px;
 
     height: 0px;
     width: 485px;
@@ -109,7 +109,7 @@ img {
     text-shadow: 0 0 10px rgb(19, 145, 242);
 
     margin: 0px auto 0px auto;
-    padding: 30px 10px 55px 10px;
+    padding: 10px 10px 30px 10px;
 
     font-family: Arial;
     font-size: 24px;
@@ -122,7 +122,7 @@ img {
 .activity-div {
 
     
-    background-color: rgb(11, 15, 11);
+    background-color: #f1d07b;
 
 }
 
